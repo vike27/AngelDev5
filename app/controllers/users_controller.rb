@@ -10,6 +10,8 @@ class UsersController < ApplicationController
     marker.lng user.longitude
     marker.infowindow user.title
     marker.picture({
+    "id" => this.marker
+    "url" => 'logo.png'
     "width" => 32,
     "height" => 32})
     end
