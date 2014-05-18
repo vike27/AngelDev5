@@ -1,1 +1,109 @@
-This is the home page. redirect to home sign-up page!
+
+<!-- Banner -->
+
+<div class="banner">
+  <div class="banner-content">
+
+		<div class='logo-image'>
+		<%= image_tag("logo.png", alt: "logo-image", class:'img-responsive logo') %>
+		</div>
+
+		<div class='opening-text'>
+			<span class="opening-text-name">Codesk</span> 
+		</div>
+		<div class="sub-opening-text"> 
+			Work from anywhere! 
+		</div>
+
+
+  </div>
+</div>
+
+<!-- Features -->
+
+<div class="big-container">
+
+<div class="container">
+
+
+
+  <div class="mid-text-container">
+    <h1>You have the choice</h1>
+      <p>We have the largest coworking space selection</p>
+  </div>
+
+
+
+
+<div class="row index-row">
+
+    <div class="col-sm-4">
+        <div class="media">
+            <div class="row ">
+                <div class="media-img  pull-left  col-sm-5  col-md-4 ">
+                    <div class="img-overlay "> 
+                        <a class="btn  btn-primary  animated fadeInUp needsclick" href="/en/about/" rel="bookmark">Open</a> 
+                    </div>
+
+                    <%= image_tag('computer.jpg', class: 'pull-left media-img', alt: 'About') %>
+                </div>
+
+                <div class="media-body   col-sm-7 col-md-8  ">
+                    <h4 class="media-heading"> <%= link_to 'Signup', root_path, class: 'media-heading' %></h4>
+                    <p class="hidden-sm">Search cowroking spaces near you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="media">
+            <div class="row ">
+                <div class="media-img pull-left   col-sm-5 col-md-4 ">
+                    <div class="img-overlay  "> 
+                        <a class="btn  btn-primary  animated fadeInUp needsclick" href="/en/portfolio/" rel="bookmark">Open</a> 
+                    </div>
+
+                    <%= image_tag('notebook.jpg', class: 'media-img', alt: 'Portfolio') %>
+                </div>
+                <div class="media-body   col-sm-7  col-md-8 ">
+                    <h4 class="media-heading"> <%= link_to 'Get acces', root_path, class: 'media-heading' %></h4>
+                    <p class="hidden-sm">Assign for membership</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="media">
+            <div class="row ">
+                <div class="media-img  pull-left   col-sm-5 col-md-4 ">
+                    <div class="img-overlay "> 
+                        <a class="btn  btn-primary  animated fadeInUp needsclick" href="/en/contacts/" rel="bookmark">Open</a> 
+                    </div>
+
+                    <%= image_tag('building.jpg', class: 'media-img', alt: 'Contacts', type: 'button') %>                                        
+                </div>
+
+                <div class="media-body  col-sm-7 col-md-8 ">
+                    <h4 class="media-heading"><%= link_to 'TOns of locations', root_path, class: 'media-heading' %></h4>
+                    <p class="hidden-sm">work from anywhere!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
+
+</div>
+
+
+</div>
+
+<!-- imagebreak -->
+
+<div class="image-break">
+</div>
+
+<!-- signup form -->
+
